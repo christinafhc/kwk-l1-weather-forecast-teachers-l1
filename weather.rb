@@ -27,7 +27,7 @@ weather = {
 def convert_temp(weather)
   weather[:temperature_farenheit]=convert_celcius
   convert_celcius=((convert_celcius-32)*5)/9
-  puts convert_celcius
+  puts convert_celcius.round(2)
 end
   
 
